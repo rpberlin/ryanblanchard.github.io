@@ -25,11 +25,11 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 
 # Author settings
 author: Ryan Blanchard PhD # add your name
-author-pic: me_oval.png
-about-author: Design, Research, Engineering, Data, Physics. Years of experience using numerical modeling and statistics to make design decisions that get things built in the real world.
+author-pic: me_orig.jpg
+about-author: Design, Research, Engineering, Data, Physics. I believe that few things in life are as rewarding as commiting yourself to a project to get something built. The feeling of seeing numerical and statistical models come to life in real-world hardware is just unbeatable.
 
 # Contact links
-email: rpblanchard@gmail.com # Add your Email address
+email: contact@ryanblanchard.io # Add your Email address
 phone: # Add your Phone number
 website: https://ryanblanchard.io # Add your website
 linkedin: ryan-blanchard-15075926 # Add your Linkedin handle
