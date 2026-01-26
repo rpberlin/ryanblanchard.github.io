@@ -50,7 +50,7 @@
 <meta property="article:published_time" content="" />
 <meta property="article:modified_time" content="" />
 <meta property="article:tag" content="" />
-<meta property="fb:admins" content="ar.maybach" />
+<meta property="fb:admins" content="" />
 <!-- Schema.org markup for Google -->
 <meta itemprop="name" content="About">
 <meta itemprop="description" content="">
@@ -215,7 +215,7 @@
       </nav>
       
       
-      <div class="logo"><a href="./"><img class="logo" id="logo" src="./assets/img/branding/banner4.svg" alt="Ryan Blanchard"></a></div>
+      <div class="logo"><a href="./"><img class="logo" id="logo" src="./assets/img/branding/banner5_lightshadow.svg" alt="Ryan Blanchard"></a></div>
       <div class="search-icon-container">
         <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
       </div>
@@ -233,10 +233,10 @@
   <div class="about-container">
     <section class="about-header">
       <div class="author-image-container">
-        <a href='https://ryanblanchard.io'><img src=".//assets/img/me_oval.png" alt="Ryan Blanchard"></a>
+        <a href='https://ryanblanchard.io'><img src=".//assets/img/me_orig.jpg" alt="Ryan Blanchard PhD"></a>
       </div>
-      <h3>Ryan Blanchard</h3>
-      <p class="subtitle">Design, Research, Engineering, Data, Physics. Years of experience using mathematical and statistics to make design decisions that get things built in the real world.</p>
+      <h3>Ryan Blanchard PhD</h3>
+      <p class="subtitle">Design, Research, Engineering, Data, Physics. I believe that few things in life are as rewarding as commiting yourself to a project to get something built. The feeling of seeing numerical and statistical models come to life in real-world hardware is just unbeatable.</p>
     </section>
     <section class="about-body">
       <ul class="contact-list">
@@ -248,7 +248,7 @@
         <li class="github"><a class="github" href="https://github.com/rpberlin" target="_blank"><i class="fa fa-github"></i></a></li>
       
       
-        <li class="email"><a class="email" href="mailto:rpblanchard@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        <li class="email"><a class="email" href="mailto:contact@ryanblanchard.io"><i class="fa fa-envelope-o"></i></a></li>
       
       
       
@@ -292,7 +292,7 @@
             </a>
         </div>
         <div class="copyright">
-          <p>2025 &copy; Ryan Blanchard</p>
+          <p>2026 &copy; Ryan Blanchard PhD</p>
         </div>
         <div class="footer-nav">
             <div>
@@ -338,7 +338,7 @@
     var sw = document.getElementById('theme-switch');
     var html = document.getElementsByTagName('html')[0];
     var logo = document.getElementById('logo');
-    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var nightModeOption = ('off' || 'auto').toLowerCase();
     var storage = nightModeOption === 'manual'
         ? localStorage
         : sessionStorage;
@@ -364,9 +364,9 @@
     saveThemeData(themeData);
     html.dataset.theme = nightShift ? 'dark' : 'light';
     if (nightShift) {
-        logo.setAttribute("src", "./assets/img/branding/banner4.svg");
+        logo.setAttribute("src", "./assets/img/branding/banner5_darkshadow.svg");
     } else {
-        logo.setAttribute("src", "./assets/img/branding/banner4.svg");
+        logo.setAttribute("src", "./assets/img/branding/banner5_lightshadow.svg");
     }
     setTimeout(function() {
         sw.checked = nightShift ? true : false;
@@ -442,6 +442,12 @@
 
 
 
+<script>
+  window.addEventListener('load', () => {
+    if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise();
+  });
+</script>
+
 <script src="./assets/js/main.js"></script>
 <script>
   SimpleJekyllSearch({
@@ -459,12 +465,12 @@
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8SZS2YBZK"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-R8SZS2YBZK');
+  gtag('config', '');
 </script>
   </body>
 </html>

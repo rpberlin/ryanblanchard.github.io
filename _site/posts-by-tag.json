@@ -3,118 +3,282 @@
 [   
       
   {
-  "tag" : "artificial intelligence",
+  "tag" : "Aerodynamics",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
+      "./xfoil_wing_design.html",
       
-      "./back-to-basics.html",
-      
-      "./deep-q-learning-tic-tac-toe.html"
+      "./xfoil_toqprop.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "coding",
+  "tag" : "Aerospace",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./neural-network-optimization-methods.html",
-      
-      "./ML-Library-from-scratch.html",
-      
-      "./conways-game-of-life.html",
-      
-      "./single-neuron-perceptron.html"
+      "./human_powered_airplane.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "copyright",
+  "tag" : "Afterburner",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./afterburner_thesis.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "creativity",
+  "tag" : "CAD",
   "posts" : [
       
-      "./AI-and-intellectual-property.html"
+      "./formulaSAE.html",
+      
+      "./droneCADCFD.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "deep Neural networks",
+  "tag" : "CAE",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./xfoil_wing_design.html",
+      
+      "./xfoil_toqprop.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "general blogging",
+  "tag" : "CFD",
   "posts" : [
       
-      "./starting-the-adventure.html"
+      "./droneCADCFD.html",
+      
+      "./CFD_based_optimization.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "life",
+  "tag" : "Combustion",
   "posts" : [
       
-      "./starting-the-adventure.html"
+      "./afterburner_thesis.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "machine learning",
+  "tag" : "Control",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
-      
-      "./back-to-basics.html",
-      
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./neural-network-optimization-methods.html",
-      
-      "./ML-Library-from-scratch.html",
-      
-      "./single-neuron-perceptron.html"
+      "./autonomous_robot.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "neural networks",
+  "tag" : "Design",
   "posts" : [
       
-      "./AI-and-intellectual-property.html",
+      "./human_powered_airplane.html",
       
-      "./back-to-basics.html",
+      "./formulaSAE.html"
       
-      "./ML-Library-from-scratch.html",
+    ]
+  } ,
+    
       
-      "./single-neuron-perceptron.html"
+  {
+  "tag" : "Drone",
+  "posts" : [
+      
+      "./xfoil_wing_design.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Dynamics",
+  "posts" : [
+      
+      "./afterburner_thesis.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Experiment",
+  "posts" : [
+      
+      "./afterburner_thesis.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "FEA",
+  "posts" : [
+      
+      "./formulaSAE.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Fixed Wing",
+  "posts" : [
+      
+      "./xfoil_wing_design.html",
+      
+      "./human_powered_airplane.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "HPA",
+  "posts" : [
+      
+      "./xfoil_toqprop.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Human Powered",
+  "posts" : [
+      
+      "./human_powered_airplane.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Mechatronics",
+  "posts" : [
+      
+      "./autonomous_robot.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Motorsport",
+  "posts" : [
+      
+      "./formulaSAE.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Propellers",
+  "posts" : [
+      
+      "./xfoil_toqprop.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Robotics",
+  "posts" : [
+      
+      "./autonomous_robot.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Systems",
+  "posts" : [
+      
+      "./autonomous_robot.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "Systems Engineering",
+  "posts" : [
+      
+      "./formulaSAE.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "UAV",
+  "posts" : [
+      
+      "./xfoil_toqprop.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "cycling",
+  "posts" : [
+      
+      "./bike_power_data.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "data",
+  "posts" : [
+      
+      "./bike_power_data.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "drone",
+  "posts" : [
+      
+      "./droneCADCFD.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "fixed wing",
+  "posts" : [
+      
+      "./droneCADCFD.html"
       
     ]
   } ,
@@ -124,41 +288,17 @@
   "tag" : "optimization",
   "posts" : [
       
-      "./neural-network-optimization-methods.html"
+      "./CFD_based_optimization.html"
       
     ]
   } ,
     
       
   {
-  "tag" : "python",
+  "tag" : "sensitivity",
   "posts" : [
       
-      "./deep-q-learning-tic-tac-toe.html",
-      
-      "./ML-Library-from-scratch.html",
-      
-      "./conways-game-of-life.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "reinforcement learning",
-  "posts" : [
-      
-      "./deep-q-learning-tic-tac-toe.html"
-      
-    ]
-  } ,
-    
-      
-  {
-  "tag" : "thoughts",
-  "posts" : [
-      
-      "./starting-the-adventure.html"
+      "./CFD_based_optimization.html"
       
     ]
   } 

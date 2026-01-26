@@ -1,21 +1,23 @@
 {
   "posts" : [
     
-    "./AI-and-intellectual-property.html",
+    "./xfoil_wing_design.html",
     
-    "./back-to-basics.html",
+    "./afterburner_thesis.html",
     
-    "./starting-the-adventure.html",
+    "./xfoil_toqprop.html",
     
-    "./deep-q-learning-tic-tac-toe.html",
+    "./human_powered_airplane.html",
     
-    "./neural-network-optimization-methods.html",
+    "./formulaSAE.html",
     
-    "./ML-Library-from-scratch.html",
+    "./autonomous_robot.html",
     
-    "./conways-game-of-life.html",
+    "./droneCADCFD.html",
     
-    "./single-neuron-perceptron.html"
+    "./CFD_based_optimization.html",
+    
+    "./bike_power_data.html"
     
   ]
 }

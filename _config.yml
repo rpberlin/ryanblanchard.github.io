@@ -4,7 +4,7 @@ description: 'Artificial Intelligence trends and concepts made easy.' # this mea
 permalink: ':title:output_ext'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryanblanchard.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/banner4.svg"
+logo: "/assets/img/branding/banner5_lightshadow.svg"
 logo-icon: "/assets/img/branding/logo4_svgbezier.svg"
 logo-icon-SEO: "/assets/img/branding/logo4_svgbezier1.png" # must be a non SVG file
 
@@ -18,9 +18,9 @@ logo-icon-SEO: "/assets/img/branding/logo4_svgbezier1.png" # must be a non SVG f
 # visit (session). Only the dark mode setting is "manual",
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
-night_mode: "auto"
+night_mode: "off"
 
-logo-dark: "/assets/img/branding/banner4.svg"
+logo-dark: "/assets/img/branding/banner5_darkshadow.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
@@ -39,8 +39,8 @@ github: rpberlin # Add your Github handle
 #mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
-analytics: G-R8SZS2YBZK
-fbadmin: ar.maybach
+#analytics: G-R8SZS2YBZK
+#fbadmin: ar.maybach
 
 # Paginate
 paginate: 6
@@ -54,7 +54,7 @@ extensions:
 comments: utteranc  #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
-  repo: # The GitHub repo URL.  https://utteranc.es/
+  repo: github.com/rpberlin/ryanblanchard.github.io/
   issue_term: # The GitHub issue label
   label: # The GitHub comments label
   theme: # The GitHub comment's there. e.g. github-dark
