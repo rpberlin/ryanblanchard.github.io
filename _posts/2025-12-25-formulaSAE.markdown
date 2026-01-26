@@ -73,7 +73,7 @@ The car’s structure was designed entirely by students, balancing stiffness, ma
 We used finite element analysis selectively — not to chase perfect stress predictions, but to identify load paths, calculate stiffnesses, and filter out bad design concepts.  
 
 ![FSAE FEA](assets/img/posts/20251225/FSAE_FEA.png)
-*Finite element analysis of critical subframe sections used to guide structural reinforcement and weight reduction*
+*Finite element analysis of press-fit titanium axle into an aluminum upright under cornering load*
 
 Simulation was a guide, not a crutch.
 
