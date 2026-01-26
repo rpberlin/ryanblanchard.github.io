@@ -142,11 +142,21 @@ For reacting cases, validation became more subtle. Chemiluminescence measurement
 
 To make the comparison meaningful, the LES heat release was integrated numerically along synthetic lines of sight:
 
+![Hot Wake](assets/img/posts/20251222/fig4-flameprojection.png)
+*Instantaneous heat flame sheet left with integrated heat release "image" on the left*
+fig4-flameprojection.png
+
 <div class="math-boundary">
 $$
 I(x,y) = \int \dot{q}^{'''}(x,y,z) \, dz
 $$
 </div>
+
+<video controls autoplay loop muted playsinline style="max-width:100%;">
+  <source src="assets/img/posts/20251222/flameprojection.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+*Animation of the simulated flame (left) and the integrated heat release image $I(x,y)$ on the right*
 
 
 POD of these integrated fields revealed:

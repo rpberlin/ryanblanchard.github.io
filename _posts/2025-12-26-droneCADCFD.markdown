@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "Collaborative Drone Design With CAD and CFD"
+title: "Fixed Wing UAV Aero+Structural Design"
 date: 2025-12-26
 img: posts/20251226/splash.png
 tags: [CAD, CFD, drone, fixed wing]

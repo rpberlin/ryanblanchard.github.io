@@ -70,7 +70,7 @@ The car’s structure was designed entirely by students, balancing stiffness, ma
 ![FSAE CAD Rendering](assets/img/posts/20251225/fsae_CAD2.jpg)
 *Refined CAD model incorporating lessons learned from the prototype build and early testing*
 
-We used finite element analysis selectively — not to chase perfect stress predictions, but to identify load paths and weak points.  
+We used finite element analysis selectively — not to chase perfect stress predictions, but to identify load paths, calculate stiffnesses, and filter out bad design concepts.  
 
 ![FSAE FEA](assets/img/posts/20251225/FSAE_FEA.png)
 *Finite element analysis of critical subframe sections used to guide structural reinforcement and weight reduction*

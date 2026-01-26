@@ -2,10 +2,10 @@
 layout: post
 read_time: true
 show_date: true
-title: "Collaborative Drone Design With CAD and CFD"
-date: 2025-12-26
-img: posts/20251226/splash.png
-tags: [CAD, CFD, drone, fixed wing]
+title: "Afterburner Test Stand"
+date: 2025-12-22
+img: posts/20251222/veegutter_splash.png
+tags: [Dynamics, Experiment, Combustion, Afterburner]
 category: opinion
 author: Ryan Blanchard
 description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
