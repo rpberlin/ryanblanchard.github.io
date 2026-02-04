@@ -174,6 +174,11 @@ This drove constraints back into the optimization:
 ![CAD Propeller](assets/img/posts/20260125/fig-onshape_prop.png)
 *Propeller drawn in CAD using OnShape*
 
+
+![Printer Layout](assets/img/posts/20260125/totheprinter.jpeg)
+*To the printer!*
+
+
 The result was a propeller that:
 - Matches the optimized aerodynamic geometry
 - Can be manufactured with desktop tools

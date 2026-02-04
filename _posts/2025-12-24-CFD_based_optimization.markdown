@@ -38,7 +38,7 @@ What I actually learned — slowly, painfully, and repeatedly — is that **opti
 
 ## Formula SAE: When the Algorithm Beats You Instead
 
-Formula SAE was my first real optimization playground.
+[Formula SAE](https://ryanblanchard.io/formulaSAE.html) racecar design was my first real optimization playground .
 
 I used optimization scripts for:
 - Suspension kinematics (minimizing bump steer and scrub radius while hitting camber gain targets)
