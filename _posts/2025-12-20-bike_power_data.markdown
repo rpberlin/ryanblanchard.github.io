@@ -2,8 +2,8 @@
 layout: post
 read_time: true
 show_date: true
-title: "Pedal Power, Heart Rate, and a Little ODE That Became a Toolchain"
-date: 2026-02-10
+title: "Bikes, Sensors, and Differential Equations"
+date: 2025-11-27
 img: posts/20251220/bikepowerdata.png
 tags: [Cycling, Modeling, Optimization, Python]
 category: research
