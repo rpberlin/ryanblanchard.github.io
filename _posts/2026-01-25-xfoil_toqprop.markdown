@@ -14,7 +14,7 @@ mathjax: true
 
 ## Why Propeller Design Is Hard
 
-A propeller is just a rotating wing — but that simple statement hides a lot of complexity.
+A propeller is just a rotating wing, but that simple statement hides a lot of complexity.
 
 Unlike a fixed wing, every blade section on a propeller:
 - Sees a different relative velocity
@@ -115,7 +115,7 @@ QPROP itself is written and maintained by **Mark Drela**, whose tools have quiet
 
 ## Feeding XFOIL into QPROP
 
-QPROP does not invent airfoil aerodynamics — it consumes them.
+QPROP does not invent airfoil aerodynamics it uses their force coefficients approximations as inputs.
 
 For each blade section:
 1. XFOIL is used to generate polars $(C_l, C_d, C_m)$
@@ -208,4 +208,4 @@ For small aircraft, that leverage is everything.
 
 XFOIL and QPROP are not flashy tools. They are not new. But they encode decades of aerodynamic insight in a form that rewards careful thinking.
 
-Used together — and automated properly — they form a design workflow that is fast, transparent, and grounded in physics. That combination is rare, and it’s why they remain central to how I design propellers today.
+Used together (and automated properly) they form a design workflow that is fast, transparent, and grounded in physics. That combination is rare, and it’s why they remain central to how I design propellers today.

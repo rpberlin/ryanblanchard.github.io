@@ -25,15 +25,15 @@ Teams are judged not just on lap time, but on:
 ![FSAE final](assets/img/posts/20251225/fsae_splash.png)
 *The final car*
 
-Most established teams iterate year-to-year, refining designs using previous cars as testbeds. That luxury mattered a lot to us — because we didn’t have it.
+Most established teams iterate year-to-year, refining designs using previous cars as testbeds. That luxury mattered a lot to us because we didn’t have it.
 
 ---
 
 ## One F1 Obsession and One Physics Brain
 
-The project started with a friend of mine who was, in the best possible way, an F1 obsessive. He didn’t just *watch* Formula 1 — he lived it. Telemetry, suspension geometry, aero trade studies, team politics. All of it.
+The project started with a friend of mine who was, in the best possible way, an F1 obsessive. He didn’t just *watch* Formula 1, he lived it. Telemetry, suspension geometry, aero trade studies, team politics. All of it.
 
-I came from a different angle. I loved the physics: fluid flow, dynamics, structures, control. Formula SAE immediately struck me as the ultimate forcing function — a way to turn abstract coursework into something brutally real.
+I came from a different angle. I loved the physics: fluid flow, dynamics, structures, control. Formula SAE immediately struck me as the ultimate forcing function: a way to turn abstract coursework into something brutally real.
 
 Together, we convinced our university to approve Formula SAE as a senior capstone project. That approval came with a modest budget and, more importantly, legitimacy. By the end, about **20 undergraduate students** were involved in designing, building, testing, and driving the car.
 
@@ -41,7 +41,7 @@ Together, we convinced our university to approve Formula SAE as a senior capston
 
 ## A Lens for Learning
 
-I easily spent **twice as much time on Formula SAE as on all my coursework combined** — and it paid off in ways no class ever could.
+I easily spent **twice as much time on Formula SAE as on all my coursework combined** and it paid off in ways no class ever could.
 
 Every new concept suddenly mattered:
 - Fluid flow → intake and cooling
@@ -70,7 +70,7 @@ The car’s structure was designed entirely by students, balancing stiffness, ma
 ![FSAE CAD Rendering](assets/img/posts/20251225/fsae_CAD2.jpg)
 *Refined CAD model incorporating lessons learned from the prototype build and early testing*
 
-We used finite element analysis selectively — not to chase perfect stress predictions, but to identify load paths, calculate stiffnesses, and filter out bad design concepts.  
+We used finite element analysis selectively, not to chase perfect stress predictions, but to identify load paths, calculate stiffnesses, and filter out bad design concepts.  
 
 ![FSAE FEA](assets/img/posts/20251225/FSAE_FEA.png)
 *Finite element analysis of press-fit titanium axle into an aluminum upright under cornering load*
@@ -79,7 +79,7 @@ Simulation was a guide, not a crutch.
 
 ---
 
-What we *couldn’t* do — at least not well — was simulate the full system. About 90% of the teams we competed against had previous cars to validate models against. We had nothing.
+What we *couldn’t* do, at least not well, was simulate the full system. About 90% of the teams we competed against had previous cars to validate models against. We had nothing.
 
 So we made a counterintuitive decision.
 
@@ -95,7 +95,7 @@ Instead of betting everything on a single “perfect” design, we committed to 
 We started in **September** and set an aggressive internal deadline:
 > The first car would drive under its own power by January 1.
 
-We missed that deadline by three days — but on **January 4**, the prototype rolled under its own power.
+We missed that deadline by three days but on **January 4**, the prototype rolled under its own power.
 
 <video controls autoplay loop muted playsinline style="max-width:100%;">
   <source src="assets/img/posts/20251225/tirewarmer.mp4" type="video/mp4">
@@ -155,4 +155,4 @@ That project taught me something I still rely on today:
 > You learn it by confronting complexity early, imperfectly, and honestly.
 
 Formula SAE wasn’t just a car.  
-It was the moment engineering stopped being theoretical for me — and started being real.
+It was the moment engineering stopped being theoretical for me, and started being real.

@@ -8,7 +8,7 @@ img: posts/20251224_optimize/gradients.png
 tags: [Optimization, CFD, Algorithms, Engineering]
 category: research
 author: Ryan Blanchard
-description: "Three lessons on optimization—from Excel Solver to CFD—about why problem formulation matters more than algorithms."
+description: "Three lessons on optimization. From Excel Solver to CFD: why problem formulation matters more than algorithms."
 mathjax: true
 ---
 
@@ -16,7 +16,7 @@ mathjax: true
 
 I’ve been obsessed with optimization for as long as I’ve known it existed.
 
-As a freshman undergraduate, a friend showed me **Excel Solver**. I don’t even remember what we were trying to optimize — I just remember the feeling that *a computer could search a design space for you*. That single demo permanently rewired how I thought about engineering problems.
+As a freshman undergraduate, a friend showed me **Excel Solver**. I don’t even remember what we were trying to optimize, I just remember the feeling that *a computer could search a design space for you*. That single demo permanently rewired how I thought about engineering problems.
 
 Not long after, I signed up for a **graduate-level optimization algorithms course as a sophomore**, before I had even taken linear algebra. I was wildly underprepared mathematically, but completely hooked intellectually.
 
@@ -32,7 +32,7 @@ If something had tunable parameters, I tried to optimize it.
 
 At the time, I thought optimization was about finding the *best* solution.
 
-What I actually learned — slowly, painfully, and repeatedly — is that **optimization is mostly about finding the weaknesses in your own thinking**.
+What I actually learned (slowly, painfully, and repeatedly) is that **optimization is mostly about finding the weaknesses in your own thinking**.
 
 ---
 
@@ -74,7 +74,7 @@ The grading rubric was brutal and honest:
 - **A**: Converges for *cold + rich*
 
 The professor warned us:
-- He had tried Excel Solver himself — and failed
+- He had tried Excel Solver himself (and failed)
 - Most numerical solvers would fail catastrophically
 - No software was off-limits
 
@@ -89,7 +89,7 @@ Some species concentrations varied by **nearly 40 orders of magnitude** across c
 Most of the class tried MATLAB or Python optimization libraries.  
 They all failed.
 
-The equations were smooth and continuous — perfect for gradient-based methods — but *numerically hostile*.
+The equations were smooth and continuous  *perfect* for gradient-based methods but *numerically hostile*.
 
 ---
 
@@ -135,7 +135,7 @@ That was the moment I truly internalized this rule:
 
 Years later, that lesson reappeared in a very different context.
 
-I worked on a **radiant syngas cooler** — a massive heat exchanger roughly the size of the Statue of Liberty, built from expensive nickel-based alloys. Shrinking it even slightly without sacrificing performance could save **millions of dollars**.
+I worked on a **radiant syngas cooler**  (a massive heat exchanger roughly the size of the Statue of Liberty) built from expensive nickel-based alloys. Shrinking it even slightly without sacrificing performance could save **millions of dollars**.
 
 The objectives:
 - Minimize volume (cost surrogate)
@@ -145,7 +145,7 @@ The objectives:
 The design variables included:
 - Vessel diameter and height
 - Platen width and length
-- **Number of platens** — an integer
+- **Number of platens**: an integer
 
 At first glance, this seems incompatible with gradient-based optimization.
 
@@ -189,7 +189,7 @@ $$
 $$
 </div>
 
-By luck — and physics — this direction also slightly *reduced* PHF.
+Luckily this direction also slightly *reduced* PHF.
 
 After two gradient + line-search iterations:
 - The integer platen count was rounded
@@ -220,4 +220,4 @@ What matters far more than the algorithm is:
 Optimization is not about asking *“what’s the best answer?”*  
 It’s about asking *“what question can the solver actually answer honestly?”*
 
-That mindset — from Excel Solver, to equilibrium chemistry, to industrial CFD — is how I approach complex engineering problems today.
+That mindset, from Excel Solver, to equilibrium chemistry, to industrial CFD, is how I approach complex engineering problems today.

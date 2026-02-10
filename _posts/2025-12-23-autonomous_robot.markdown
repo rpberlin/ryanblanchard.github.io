@@ -14,13 +14,13 @@ mathjax: true
 
 ## A Graduate Course Disguised as a Trial by Fire
 
-As an undergraduate, my university allowed students to take up to three graduate-level courses as electives. For my first, I chose **Mechatronics** — partly because it sounded intimidating, and partly because I suspected it would force me to learn things I didn’t yet know I needed.
+As an undergraduate, my university allowed students to take up to three graduate-level courses as electives. For my first, I chose **Mechatronics**, partly because it sounded intimidating, and partly because I suspected it would force me to learn things I didn’t yet know I needed.
 
 The course itself was largely conceptual. The *real* grade came from a semester-long group project: build an autonomous robot capable of navigating a complex course and completing a multi-object task under uncertainty.
 
 I was grouped with two PhD students. Both were racing to finish and defend their dissertations that same semester.
 
-Which meant — very quickly — that a large fraction of the project landed on me.
+Which meant that *very quickly* a large fraction of the project landed on me.
 
 ![First design iteration of Turtle](assets/img/posts/20251223/turtle.jpg)
 *The final product of much sweat and many tears - "the Turtle"*
@@ -144,7 +144,7 @@ Once the image centroid dropped low enough in the frame (meaning the ball was cl
 
 It worked.
 
-The feeling when it worked the first time — and when I showed it to my teammates the next day and it worked *again* — was unforgettable.
+The feeling when it worked the first time, and when I showed it to my teammates the next day and it worked *again*, was unforgettable.
 
 That was the moment feedback control stopped being math and became behavior.
 
@@ -162,7 +162,7 @@ We went through **three major design phases** over the semester, each one inform
 
 Each iteration stripped away complexity and increased robustness.
 
-By the end of the semester, our robot was the **only one** that could reliably navigate the course — and the only one that could capture balls.
+By the end of the semester, our robot was the **only one** that could reliably navigate the course, and the only one that could capture balls.
 
 ---
 
@@ -179,7 +179,7 @@ The balls got stuck on the chassis.
 
 So close.
 
-Only afterward did the professor admit that this was the **fourth year** he had taught the course that way — and that no team had ever completed the full challenge.
+Only afterward did the professor admit that this was the **fourth year** he had taught the course that way ... and that no team had ever completed the full challenge.
 
 ---
 
@@ -199,7 +199,7 @@ It taught me:
 
 Most importantly, it set my trajectory.
 
-This was the first time I took something messy, underdefined, and borderline impossible — and made it work through iteration, physics, and stubbornness.
+This was the first time I took something messy, underdefined (and borderline impossible) and made it work through iteration, physics, and stubbornness.
 
 Turtle didn’t just navigate a course.
 

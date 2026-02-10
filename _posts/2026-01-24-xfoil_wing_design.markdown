@@ -16,11 +16,11 @@ mathjax: true
 
 Designing a wing always starts with the same uncomfortable gap:
 
-> You can draw a beautiful airfoil shape — but how do you know what it *does* aerodynamically?
+> You can draw a beautiful airfoil shape but how do you know what it *does* aerodynamically?
 
 For conventional aircraft, that gap is often bridged with wind-tunnel data, empirical charts, or CFD. For **small UAVs** and **human-powered aircraft**, those options are either too expensive or too slow to iterate.
 
-XFOIL, written in Fortran at MIT by Mark Drela [mit.edu/drela/xfoil](https://web.mit.edu/drela/Public/web/xfoil/), sits precisely in that gap. It provides a fast, physics-based way to go from **geometry** to **aerodynamic coefficients** — lift, drag, and moment — as a function of **angle of attack** and **Reynolds number**. That makes it an indispensable tool for early-stage wing design, especially when iteration speed matters. 
+XFOIL, written in Fortran at MIT by Mark Drela [mit.edu/drela/xfoil](https://web.mit.edu/drela/Public/web/xfoil/), sits precisely in that gap. It provides a fast, physics-based way to go from **geometry** to **aerodynamic coefficients** lift, drag, and moment as a function of **angle of attack** and **Reynolds number**. That makes it an indispensable tool for early-stage wing design, especially when iteration speed matters. 
 
 For my pedal-powered aircraft project, XFOIL is the first link in the chain connecting a 2D airfoil sketch to a full 3D wing and, eventually, to a flyable machine. Paying the up front price for getting old Fortran to compile on Apple silicon with a series of python wrappers around it for automation has paid huge dividends for speeding up my analysis cycles.
 
@@ -80,7 +80,7 @@ C_l = \frac{L}{\tfrac{1}{2} \rho U^2 S}
 $$
 </div>
 
-This normalization allows results to be compared across scales, speeds, and densities — critical when extrapolating between test cases.
+This normalization allows results to be compared across scales, speeds, and densities, which are critical when extrapolating between test cases.
 
 XFOIL allows these coefficients to be computed across:
 - Angle of attack sweeps
@@ -116,7 +116,7 @@ XFOIL provides the sectional lift data needed to build that circulation distribu
 
 ## From 2D Airfoils to a 3D Wing
 
-A real wing is not a single airfoil — it is a **spanwise distribution** of airfoil sections, chord lengths, and twist angles.
+A real wing is not a single airfoil, it is a **spanwise distribution** of airfoil sections, chord lengths, and twist angles.
 
 For my designs, I use XFOIL to:
 1. Analyze candidate airfoils at local Reynolds numbers
@@ -160,7 +160,7 @@ then the induced drag factor comes out:
 
 <div class="math-boundary"> $$ C_L=\pi\,AR\,A_1, \qquad C_{D_i}=\pi\,AR\sum_{n=1}^{\infty} n A_n^2 $$ </div>
 
-By shaping the spanwise circulation — through twist, taper, and airfoil selection — induced drag can be reduced significantly. XFOIL provides the sectional data needed to make those design decisions quantitatively rather than by intuition alone.
+By shaping the spanwise circulation (through twist, taper, and airfoil selection) induced drag can be reduced significantly. XFOIL provides the sectional data needed to make those design decisions quantitatively rather than by intuition alone.
 
 ---
 
@@ -175,4 +175,4 @@ XFOIL is not a replacement for CFD or experiments. Instead, it plays a very spec
 
 For both my UAV work and my human-powered aircraft project, XFOIL is the tool that lets me move confidently from a sketch of an airfoil to a wing that has a realistic chance of working in the real world.
 
-Everything downstream — lifting-line models, BEM codes, CFD, and eventually flight testing — depends on getting this first step right.
+Everything downstream (lifting-line models, BEM codes, CFD, and eventually flight testing) depends on getting this first step right.

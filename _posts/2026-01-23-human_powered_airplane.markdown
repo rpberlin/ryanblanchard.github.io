@@ -17,7 +17,7 @@ mathjax: true
 Some engineering projects start with a problem statement.  
 This one started with a PBS documentary.
 
-I was a kid when I first saw a program about the **Daedalus Project**, the human-powered aircraft that successfully flew from Crete to Santorini. I don’t remember all the details, but I *do* remember what it did to my imagination. Suddenly, flying didn’t feel like something reserved for jet engines and control towers — it felt almost personal. Human. Attainable.
+I was a kid when I first saw a program about the **Daedalus Project**, the human-powered aircraft that successfully flew from Crete to Santorini. I don’t remember all the details, but I *do* remember what it did to my imagination. Suddenly, flying didn’t feel like something reserved for jet engines and control towers it felt almost personal. Human. Attainable.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4pbKp7ufwns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -41,7 +41,7 @@ But that equation stuck.
 
 ## Coming Back With Better Tools
 
-Decades later, that same equation still sits at the heart of this project — but now it’s surrounded by tools I didn’t have back then.
+Decades later, that same equation still sits at the heart of this project but now it’s surrounded by tools I didn’t have back then.
 
 Designing a human-powered aircraft is a brutally constrained problem:
 
@@ -126,7 +126,7 @@ Twist is used aggressively to shape the spanwise loading while keeping root bend
 
 This isn’t about breaking records or chasing headlines.
 
-It’s about finally revisiting an idea that’s been quietly present for most of my life — but doing it with the right tools, the right physics, and the right level of respect for how hard the problem actually is.
+It’s about finally revisiting an idea that’s been quietly present for most of my life, but doing it with the right tools, the right physics, and the right level of respect for how hard the problem actually is.
 
 Every part of this aircraft exists because of something I once struggled to understand:
 
@@ -135,7 +135,7 @@ Every part of this aircraft exists because of something I once struggled to unde
 - Why efficiency is a system-level property
 - Why building hardware teaches you things simulations never will
 
-This project sits at the intersection of **curiosity, discipline, and persistence** — and for me, that’s where the most meaningful engineering lives.
+This project sits at the intersection of **curiosity, discipline, and persistence** and for me, that’s where the most meaningful engineering lives.
 
 There’s still a long way to go. But for the first time, this isn’t a sketch in a notebook.
 

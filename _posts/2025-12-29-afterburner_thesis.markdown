@@ -21,7 +21,7 @@ Afterburners live in a difficult corner of fluid mechanics: high-speed turbulent
 
 For vee-gutter bluff-body flameholders, stability comes from the wake. Hot combustion products recirculate behind the gutter, ignite incoming reactants, and sustain a flame even when residence times are extremely short. The same wake, however, is inherently unsteady and sheds vortices that can couple to acoustics and lead to thermoacoustic instabilities.
 
-Understanding *how* that wake behaves — and whether simulations reproduce it for the right reasons — was the central motivation of my PhD.
+Understanding *how* that wake behaves and whether simulations reproduce it for the right reasons was the central motivation of my PhD.
 
 ---
 
@@ -188,5 +188,5 @@ This is essential for predicting combustion instability risk, flameholder perfor
 
 My PhD sat deliberately at the intersection of **design, experiment, simulation, and data-driven analysis**. Building the hardware mattered. Writing the solvers mattered. But the real leverage came from learning how to ask better validation questions.
 
-That mindset — validating *structure*, not just numbers — continues to shape how I approach complex engineering problems today.
+That mindset: validating *structure*, not just numbers, continues to shape how I approach complex engineering problems today.
 
